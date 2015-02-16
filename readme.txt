@@ -45,6 +45,4 @@ This module is designed to simplify the process of adding online call buttons to
 First release
 
 = 1.1 =
-Changed :
-1. Description
-2. Texts on the page of the plugin
+Changed description and texts on the page of the plugin
