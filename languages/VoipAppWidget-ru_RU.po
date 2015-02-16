@@ -1,0 +1,1698 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: VoipAppWidget\n"
+"POT-Creation-Date: 2014-08-08 10:06+0400\n"
+"PO-Revision-Date: 2015-01-15 12:48+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: VoipAppWidget-admin.php:2
+msgid "VoipAppWidget Administrator"
+msgstr "Управление VoipAppWidget"
+
+#: VoipAppWidget-admin.php:9
+msgid "Please specify your VoipAppWidget account info for authorization"
+msgstr "Пожалуйста введите данные аккаунта VoipAppWidget для авторизации"
+
+#: VoipAppWidget-admin.php:10
+msgid "If you don`t have VoipAppWidget account yet, you can "
+msgstr "Если у Вас пока нет аккаунта VoipAppWidget, Вы можете "
+
+#: VoipAppWidget-admin.php:10
+msgid "Sign up here"
+msgstr "Создать аккаунт здесь"
+
+#: VoipAppWidget-admin.php:15
+msgid "Email/Username"
+msgstr "Email/Логин"
+
+#: VoipAppWidget-admin.php:16 VoipAppWidget-admin.php:23
+#: VoipAppWidget-admin.php:58 VoipAppWidget-admin.php:68
+#: VoipAppWidget-admin.php:76 VoipAppWidget-admin.php:84
+#: VoipAppWidget-admin.php:100 VoipAppWidget-admin.php:112
+#: VoipAppWidget-admin.php:124 VoipAppWidget-createwidget.php:44
+#: VoipAppWidget-createwidget.php:50 VoipAppWidget-editwidget.php:39
+#: VoipAppWidget-editwidget.php:53 VoipAppWidget-profile.php:57
+#: VoipAppWidget-profile.php:65 VoipAppWidget-profile.php:73
+#: VoipAppWidget-profile.php:81
+msgid "required"
+msgstr "обязательно"
+
+#: VoipAppWidget-admin.php:22 VoipAppWidget-admin.php:111
+msgid "Password"
+msgstr "Пароль"
+
+#: VoipAppWidget-admin.php:29
+msgid "Your VoipAppWidget account password"
+msgstr "Пароль от Вашего аккаунта VoipAppWidget"
+
+#: VoipAppWidget-admin.php:42
+msgid "Authorize & Enable"
+msgstr "Авторизоваться"
+
+#: VoipAppWidget-admin.php:51
+msgid "Please fill the form below to create your VoipAppWidget account"
+msgstr "Пожалуйста заполните форму для создания аккаунта VoipAppWidget"
+
+#: VoipAppWidget-admin.php:52
+msgid "Or"
+msgstr "Или"
+
+#: VoipAppWidget-admin.php:52
+msgid "Sign in here"
+msgstr "Авторизуйтесь здесь"
+
+#: VoipAppWidget-admin.php:52
+msgid "if you already have VoipAppWidget account"
+msgstr "Если у Вас уже есть аккаунт VoipAppWidget"
+
+#: VoipAppWidget-admin.php:67 VoipAppWidget-profile.php:9
+#: VoipAppWidget-profile.php:56
+msgid "First name"
+msgstr "Фамилия"
+
+#: VoipAppWidget-admin.php:75 VoipAppWidget-profile.php:15
+#: VoipAppWidget-profile.php:64
+msgid "Last name"
+msgstr "Имя"
+
+#: VoipAppWidget-admin.php:83 VoipAppWidget-classes.php:201
+msgid "Country"
+msgstr "Страна"
+
+#: VoipAppWidget-admin.php:94
+msgid "Select a country on the phone number which will be forwarded calls"
+msgstr "Выберите страну на номера который будут переадресованы звонки"
+
+#: VoipAppWidget-admin.php:99
+msgid "Phone"
+msgstr "Телефон"
+
+#: VoipAppWidget-admin.php:106 VoipAppWidget-createwidget.php:54
+#: VoipAppWidget-editwidget.php:56
+msgid "For example, for US 18005553723"
+msgstr "Например, для Москвы 74951112233"
+
+#: VoipAppWidget-admin.php:118
+msgid "At least 6 characters"
+msgstr "Не короче 6 символов"
+
+#: VoipAppWidget-admin.php:123
+msgid "Password Confirmation"
+msgstr "Подтверждение пароля"
+
+#: VoipAppWidget-admin.php:133
+msgid "Sign Up"
+msgstr "Создать аккаунт"
+
+#: VoipAppWidget-billing.php:2 VoipAppWidget.php:385 VoipAppWidget.php:473
+msgid "Billing"
+msgstr "Оплата"
+
+#: VoipAppWidget-billing.php:3
+msgid ""
+"You can make payment or upgrade your account by clicking the button below "
+"(you will be forwarded to VoipAppWidget Control Panel)"
+msgstr ""
+"Вы можете произвести оплату или обновить тариф, нажав на кнопку ниже (вы "
+"будете перенаправлены в панель управления VoipAppWidget)"
+
+#: VoipAppWidget-billing.php:5 VoipAppWidget-cp.php:8
+msgid "VoipAppWidget Control Panel"
+msgstr "Панель упраления VoipAppWidget"
+
+#: VoipAppWidget-blacklist.php:11 VoipAppWidget-blacklist.php:12
+msgid "Wrong IP address specified"
+msgstr "Введен не правильный IP-адрес"
+
+#: VoipAppWidget-blacklist.php:18 VoipAppWidget-classes.php:424
+#: VoipAppWidget-classes.php:492
+msgid "IP address"
+msgstr "IP-адрес"
+
+#: VoipAppWidget-blacklist.php:18
+msgid "Add to the list"
+msgstr "Добавить в список"
+
+#: VoipAppWidget-classes.php:9
+msgid "Name"
+msgstr "Название"
+
+#: VoipAppWidget-classes.php:10
+msgid "Active"
+msgstr "Активен"
+
+#: VoipAppWidget-classes.php:11
+msgid "Numbers"
+msgstr "Номера"
+
+#: VoipAppWidget-classes.php:12
+msgid " "
+msgstr ""
+
+#: VoipAppWidget-classes.php:14 VoipAppWidget-cp.php:81
+msgid "Country control"
+msgstr "Геотаргетинг"
+
+#: VoipAppWidget-classes.php:72 VoipAppWidget-classes.php:174
+#: VoipAppWidget-classes.php:252 VoipAppWidget-classes.php:364
+#: VoipAppWidget-classes.php:458 VoipAppWidget-cp.php:22 VoipAppWidget.php:231
+#: VoipAppWidget.php:252 VoipAppWidget.php:260 VoipAppWidget.php:276
+#: VoipAppWidget.php:349 VoipAppWidget.php:494 VoipAppWidget.php:500
+#: VoipAppWidget.php:596 VoipAppWidget.php:623 VoipAppWidget.php:639
+#: VoipAppWidget.php:687 VoipAppWidget.php:732 VoipAppWidget.php:812
+#: VoipAppWidget.php:1141 VoipAppWidget.php:1172 VoipAppWidget.php:1193
+#: VoipAppWidget.php:1219 VoipAppWidget.php:1238 VoipAppWidget.php:1265
+msgid "Error"
+msgstr "Ошибка"
+
+#: VoipAppWidget-classes.php:120
+msgid "Widget is active"
+msgstr "Виджет активен"
+
+#: VoipAppWidget-classes.php:128
+msgid "Test"
+msgstr "Тест"
+
+#: VoipAppWidget-classes.php:129 VoipAppWidget-profile.php:49
+msgid "Edit"
+msgstr "Редактировать"
+
+#: VoipAppWidget-classes.php:130
+msgid "Widget builder"
+msgstr "Редактор виджета"
+
+#: VoipAppWidget-classes.php:131 VoipAppWidget-classes.php:202
+#: VoipAppWidget-classes.php:314 VoipAppWidget-widgetdesigner.php:177
+msgid "Widget"
+msgstr "Виджет"
+
+#: VoipAppWidget-classes.php:131 VoipAppWidget-classes.php:492
+msgid "will be deleted. Are you sure?"
+msgstr "будет удален. Вы уверены?"
+
+#: VoipAppWidget-classes.php:131 VoipAppWidget-classes.php:139
+#: VoipAppWidget-classes.php:408 VoipAppWidget-classes.php:492
+msgid "Delete"
+msgstr "Удалить"
+
+#: VoipAppWidget-classes.php:150
+msgid "Nope! Security check failed!"
+msgstr ""
+
+#: VoipAppWidget-classes.php:179
+msgid "Widgets were deleted successfully"
+msgstr "Виджеты будут удалены. Вы уверены?"
+
+#: VoipAppWidget-classes.php:196
+msgid "Call status"
+msgstr "Статус"
+
+#: VoipAppWidget-classes.php:197 VoipAppWidget-classes.php:312
+msgid "Date"
+msgstr "Дата"
+
+#: VoipAppWidget-classes.php:198
+msgid "Number"
+msgstr "Номер"
+
+#: VoipAppWidget-classes.php:199 VoipAppWidget-classes.php:313
+msgid "Duration"
+msgstr "Продолжительность"
+
+#: VoipAppWidget-classes.php:200
+msgid "Cost"
+msgstr "Стоимость"
+
+#: VoipAppWidget-classes.php:204 VoipAppWidget-classes.php:316
+msgid "Record"
+msgstr "Запись"
+
+#: VoipAppWidget-classes.php:295 VoipAppWidget-classes.php:406
+msgid "Download"
+msgstr "Скачать"
+
+#: VoipAppWidget-classes.php:296 VoipAppWidget-classes.php:407
+msgid "Play"
+msgstr "Прослушать"
+
+#: VoipAppWidget-classes.php:315
+msgid "Listened"
+msgstr "Прослушан"
+
+#: VoipAppWidget-classes.php:408
+msgid "Voicemail will be deleted. Are you sure?"
+msgstr "Голосовая почта будет удалена. Вы уверены?"
+
+#: VoipAppWidget-cp.php:34
+msgid "Current Plan"
+msgstr "Текущий тариф"
+
+#: VoipAppWidget-cp.php:39
+msgid "minutes left"
+msgstr "минут осталось"
+
+#: VoipAppWidget-cp.php:39
+msgid "minute left"
+msgstr "минут осталось"
+
+#: VoipAppWidget-cp.php:39 VoipAppWidget-cp.php:48
+msgid "until"
+msgstr "до"
+
+#: VoipAppWidget-cp.php:43
+msgid "Payment mode - \"Pay as you go\""
+msgstr "Режим платежей - \"Pay as you go\""
+
+#: VoipAppWidget-cp.php:48
+msgid "calls left"
+msgstr "звонков осталось"
+
+#: VoipAppWidget-cp.php:48
+msgid "call left"
+msgstr "звонок остался"
+
+#: VoipAppWidget-cp.php:54
+msgid "Number of operators"
+msgstr "Количество операторов"
+
+#: VoipAppWidget-cp.php:56 VoipAppWidget-help.php:17
+#: VoipAppWidget-help.php:159 VoipAppWidget.php:384
+msgid "Features"
+msgstr "Функции"
+
+#: VoipAppWidget-cp.php:60 VoipAppWidget-createwidget.php:60
+#: VoipAppWidget-editwidget.php:62 VoipAppWidget-help.php:42
+msgid "Working hours"
+msgstr "Рабочие часы"
+
+#: VoipAppWidget-cp.php:63 VoipAppWidget-createwidget.php:126
+#: VoipAppWidget-editwidget.php:128 VoipAppWidget-help.php:48
+#: VoipAppWidget-help.php:160 VoipAppWidget.php:417
+msgid "Voicemail"
+msgstr "Голосовая почта"
+
+#: VoipAppWidget-cp.php:66 VoipAppWidget-createwidget.php:137
+#: VoipAppWidget-editwidget.php:139 VoipAppWidget-help.php:54
+msgid "Call recording"
+msgstr "Запись разговоров"
+
+#: VoipAppWidget-cp.php:69 VoipAppWidget.php:425
+msgid "Analytics"
+msgstr "Аналитика"
+
+#: VoipAppWidget-cp.php:72
+msgid "Google Analytics integration"
+msgstr "Интеграция с Google Analytics"
+
+#: VoipAppWidget-cp.php:75
+msgid "Surveys"
+msgstr "Опросы"
+
+#: VoipAppWidget-cp.php:78
+msgid "Call to multiple numbers"
+msgstr "Гибкая маршрутизация"
+
+#: VoipAppWidget-cp.php:93
+msgid "Upgrade"
+msgstr "Изменить тариф"
+
+#: VoipAppWidget-cp.php:94
+msgid "Change plan"
+msgstr "Изменить тариф"
+
+#: VoipAppWidget-createwidget.php:38 VoipAppWidget-editwidget.php:33
+msgid "Widgets list"
+msgstr "Список виджетов"
+
+#: VoipAppWidget-createwidget.php:44 VoipAppWidget-editwidget.php:39
+#: VoipAppWidget-help.php:24
+msgid "Widget name"
+msgstr "Название виджета"
+
+#: VoipAppWidget-createwidget.php:50 VoipAppWidget-editwidget.php:53
+#: VoipAppWidget-help.php:36
+msgid "Phone number"
+msgstr "Номер телефона"
+
+#: VoipAppWidget-createwidget.php:68 VoipAppWidget-editwidget.php:70
+msgid "Sunday"
+msgstr "Воскресенье"
+
+#: VoipAppWidget-createwidget.php:76 VoipAppWidget-editwidget.php:78
+msgid "Monday"
+msgstr "Понедельник"
+
+#: VoipAppWidget-createwidget.php:84 VoipAppWidget-editwidget.php:86
+msgid "Tuesday"
+msgstr "Вторник"
+
+#: VoipAppWidget-createwidget.php:92 VoipAppWidget-editwidget.php:94
+msgid "Wednesday"
+msgstr "Среда"
+
+#: VoipAppWidget-createwidget.php:100 VoipAppWidget-editwidget.php:102
+msgid "Thursday"
+msgstr "Четверг"
+
+#: VoipAppWidget-createwidget.php:108 VoipAppWidget-editwidget.php:110
+msgid "Friday"
+msgstr "Пятница"
+
+#: VoipAppWidget-createwidget.php:116 VoipAppWidget-editwidget.php:118
+msgid "Saturday"
+msgstr "Суббота"
+
+#: VoipAppWidget-createwidget.php:130 VoipAppWidget-editwidget.php:132
+msgid ""
+"Voicemail prompt will be used when somebody calls you while non-working hours"
+msgstr ""
+"Голосовая почта используется, когда кто-нибудь пытается позвонить через "
+"виджет в нерабочее время"
+
+#: VoipAppWidget-createwidget.php:141 VoipAppWidget-editwidget.php:143
+msgid "Enable/disable call recording feature for the widget"
+msgstr "Включить/выключить запись звонков"
+
+#: VoipAppWidget-createwidget.php:148 VoipAppWidget-editwidget.php:150
+#: VoipAppWidget-help.php:60
+msgid "Google analytics"
+msgstr ""
+
+#: VoipAppWidget-createwidget.php:153 VoipAppWidget-editwidget.php:155
+msgid ""
+"Your Google Analytics ID in the following format UA-XXXX-YY, <br />you can "
+"get it in your Google Analytics control panel. <br />Just leave it blank if "
+"you don't want to use integration with Google Analytics"
+msgstr ""
+"Ваш идентификатор Google Analytics в формате UA-XXXX-YY, <br />вы можете "
+"узнать его в панели управления Google Analytics. <br />Оставьте это поле "
+"пустым если вы не хотите использовать интеграцию с Google Analytics"
+
+#: VoipAppWidget-createwidget.php:159 VoipAppWidget-editwidget.php:161
+#: VoipAppWidget-help.php:66
+msgid "DTMF Keypad"
+msgstr "Клавиатура для донабора номера"
+
+#: VoipAppWidget-createwidget.php:163 VoipAppWidget-editwidget.php:165
+msgid "Allows to enter extension numbers in connected state"
+msgstr "Позволяет вводить добавочный номер сотрудника после соединения"
+
+#: VoipAppWidget-createwidget.php:168 VoipAppWidget-editwidget.php:172
+#: VoipAppWidget-profile.php:107
+msgid "Save"
+msgstr "Сохранить"
+
+#: VoipAppWidget-editwidget.php:45 VoipAppWidget-help.php:30
+msgid "Is active"
+msgstr "Активен"
+
+#: VoipAppWidget-help.php:11
+msgid "Contents"
+msgstr "Разделы"
+
+#: VoipAppWidget-help.php:13 VoipAppWidget-help.php:22
+msgid "Creating/editing VoipAppWidget widget"
+msgstr "Создание/редактирование виджета VoipAppWidget"
+
+#: VoipAppWidget-help.php:14 VoipAppWidget-help.php:74
+msgid "Customizing look&feel"
+msgstr "Изменение внешнего вида виджета"
+
+#: VoipAppWidget-help.php:15 VoipAppWidget-help.php:122
+msgid "Embedding widget"
+msgstr "Добавление виджета на сайт"
+
+#: VoipAppWidget-help.php:16 VoipAppWidget-help.php:154 VoipAppWidget.php:383
+msgid "Call history"
+msgstr "История звонков"
+
+#: VoipAppWidget-help.php:18 VoipAppWidget-help.php:171
+msgid "Payment"
+msgstr "Оплата"
+
+#: VoipAppWidget-help.php:23
+msgid "Please see VoipAppWidget widget form description below."
+msgstr ""
+"Пожалуйста, ознакомьтесь с описанием полей формы создания/редактирования "
+"виджета."
+
+#: VoipAppWidget-help.php:28
+msgid "Just name of your wiget - some string."
+msgstr "Просто название Вашего виджета - строка"
+
+#: VoipAppWidget-help.php:34
+msgid ""
+"This field is available while widget editing only, enable/disable switch. "
+"Calls won't go through disabled widget."
+msgstr ""
+"Это поле доступно только при редактировании виджета. Звонки не будут "
+"поступать через не активный виджет."
+
+#: VoipAppWidget-help.php:40
+msgid "Calls through widget will be forwarded to the specified phone number."
+msgstr "Звонки через виджет будут переадресованы на этот номер телефона."
+
+#: VoipAppWidget-help.php:46
+msgid ""
+"This feature allows you to choose the times of day that web calls will be "
+"forwarded to your phone (for each day of the week). Customers who call you "
+"outside of these hours can leave you a voicemail message."
+msgstr ""
+"Позволяет выбрать в какое время и по каким дням звонки будут "
+"перенаправляться на указанные номера или на голосовую почту."
+
+#: VoipAppWidget-help.php:52 VoipAppWidget-help.php:58
+msgid ""
+"Record and listen to the conversations between your employees and your "
+"customers to evaluate the quality of your customer service, or to better "
+"learn what common questions your customers are having. Call records are "
+"stored for 30 days."
+msgstr ""
+"Все разговоры, проходящие через функцию, будут записаны и сохранены для "
+"скачивания или прослушивания через панель управления. Время хранения записей "
+"- 30 дней."
+
+#: VoipAppWidget-help.php:64
+msgid ""
+"Data is sent to Google Analytics as events under VoipAppWidget category. It "
+"helps to track increase in online conversion for visitors who made online "
+"call and check efficiency of marketing and advertising channels."
+msgstr ""
+"Данные о звонках выгружаются в интерфейс Google Analytics в виде отдельных "
+"событий в категории VoipAppWidget. Это позволяет отслеживать влияние звонков "
+"с сайта на онлайн продажи и изучать эффективность маркетинговых и рекламных "
+"каналов."
+
+#: VoipAppWidget-help.php:70
+msgid ""
+"The keypad allows callers to enter the extension number of a particular "
+"employee or a required IVR menu option."
+msgstr ""
+"После звонка клиент может ввести добавочный номер сотрудника или выбрать "
+"нужный пункт голосового меню."
+
+#: VoipAppWidget-help.php:79
+msgid ""
+"Call button look and feel can be customized in VoipAppWidget control panel."
+msgstr ""
+"Внешний вид кнопки звонка с сайта может быть изменен в Панели управления "
+"VoipAppWidget."
+
+#: VoipAppWidget-help.php:81
+msgid "Widget look&feel preview"
+msgstr "Предварительный просмотр внешнего вида виджета"
+
+#: VoipAppWidget-help.php:85
+msgid "You can see how your widget will look on your website."
+msgstr "Вы можете увидеть как Ваш виджет будет выглядеть на сайте."
+
+#: VoipAppWidget-help.php:87
+msgid "Buttons area"
+msgstr "Секция кнопок"
+
+#: VoipAppWidget-help.php:91
+msgid ""
+"`Choose preset` button lets you choose one of the presets from the library."
+msgstr ""
+"Кнопка `Выбрать шаблон` предлагает выбрать настройки внешнего вида виджета "
+"из библиотеки шаблонов."
+
+#: VoipAppWidget-help.php:92
+msgid "`More settings` show additional graphical settings."
+msgstr ""
+"Кнопка `Дополнительно` показывает дополнительные параметры внешнего вида "
+"виджета."
+
+#: VoipAppWidget-help.php:94
+msgid "Widget form"
+msgstr "Тип виджета"
+
+#: VoipAppWidget-help.php:98
+msgid "Two options are available - widget (floating button) or button."
+msgstr ""
+"Возможны 2 варианта - виджет (плавающая кнопка) и кнопка, зафиксированная в "
+"определенном месте сайта."
+
+#: VoipAppWidget-help.php:104
+msgid ""
+"You can adjust visual settings using this section. Advanced mode lets you "
+"adjust additional visual settings like icon shadow, etc."
+msgstr ""
+"Вы можете настроить настройки внешнего вида с помощью этого раздела. "
+"Расширенный режим позволяет настраивать дополнительные настройки внешнего "
+"вида, такие как тень от иконки и т.д."
+
+#: VoipAppWidget-help.php:106
+msgid "Saving settings"
+msgstr "Сохранение настроек"
+
+#: VoipAppWidget-help.php:108
+msgid "Two options are available depending on the widget type."
+msgstr "Возможны два варианта в зависимости от типа виджета."
+
+#: VoipAppWidget-help.php:113
+msgid ""
+"If `Widget` type was chosen, you can use `Place on website` checkbox to show "
+"the widget on every page of your website."
+msgstr ""
+"Если выбран тип `Виджет`, то Вы можете выбрать флажок `Разместить на сайте` "
+"для размещения виджета на всех страницах Вашего сайта."
+
+#: VoipAppWidget-help.php:118
+msgid ""
+"If `Button` type was chosen, just click on `Save and show embed code` to get "
+"the code and embedding instructions."
+msgstr ""
+"Если выбран тип `Кнопка`, то просто нажмите на `Сохранить и показать код "
+"вставки`, чтобы получить код и инструкцию поразмещению виджета на сайте."
+
+#: VoipAppWidget-help.php:123
+msgid "Embedding instructions for `Widget` type from `Widget visual settings`"
+msgstr ""
+"Инструкция по размещению для типа виджета `Виджет` из `Визуальной настройки "
+"виджета`"
+
+#: VoipAppWidget-help.php:127
+msgid ""
+"To automatically embed widget on all pages of your website you need to "
+"enable `Place on website` checkbox before clicking `Save widget` button. You "
+"can have only one active widget of this type (widget) on your website."
+msgstr ""
+"Для автоматического размещения виджета на всех страницах Вашего сайта Вы "
+"должны выбрать флажок `Разместить на сайте` перед нажатием на кнопку "
+"`Сохранить виджет`. Одновременно активным может быть только один виджет типа "
+"`Виджет`."
+
+#: VoipAppWidget-help.php:129
+msgid "Embedding instructions for `Widget` type from `Widgets list`"
+msgstr ""
+"Инструкция по размещению для типа `Виджет` из раздела `Список виджетов`"
+
+#: VoipAppWidget-help.php:133
+msgid ""
+"Just click `Widget is active` checkbox to place the widget on your website. "
+"You can have only one active widget of this type (widget) on your website."
+msgstr ""
+"Просто выберите флажок `Виджет активен` для размещения виджета на всех "
+"страницах Вашего сайта. Одновременно активным может быть только один виджет "
+"типа `Виджет`."
+
+#: VoipAppWidget-help.php:135
+msgid "Embedding instructions for `Button` type"
+msgstr "Инструкция по размещению для типа `Кнопка`"
+
+#: VoipAppWidget-help.php:140
+msgid ""
+"Just copy short code from `Widgets list` or `Widget visual settings` and "
+"paste it into wordpress page content."
+msgstr ""
+"Просто скопируйте шорткод из `Списка виджетов` или `Настроек внешнего вида "
+"виджета` и вставьте его в нужное место при редактировании страницы сайта."
+
+#: VoipAppWidget-help.php:145
+msgid "Embedding instructions for `Button` type using Wordpress Widget"
+msgstr ""
+"Инструкция по добавлению на сайт виджета типа `Кнопка` посредством механизма "
+"виджетов Wordpress"
+
+#: VoipAppWidget-help.php:147
+msgid ""
+"You can also use standard Wordpress Widgets mechanism to add button on your "
+"website."
+msgstr ""
+"Для размещения на сайте виджета типа `Кнопка` Вы также можете использовать "
+"стандартный механизм виджетов Wordpress."
+
+#: VoipAppWidget-help.php:155
+msgid "Info about all calls via your widgets is available in call history."
+msgstr ""
+"Информация о всех звонках через Ваши виджеты доступна в Истории звонков."
+
+#: VoipAppWidget-help.php:161
+msgid ""
+"You can listen to voicemail messages left by your customers called you "
+"during non-working hours."
+msgstr ""
+"Вы можете прослушать голосовые сообщения, оставленные клиентами, которые "
+"звонили в нерабочее время."
+
+#: VoipAppWidget-help.php:163 VoipAppWidget.php:436
+msgid "IP Blacklist"
+msgstr "Черный список IP-адресов"
+
+#: VoipAppWidget-help.php:164
+msgid "VoipAppWidget allows manual filtering by a caller’s IP address."
+msgstr "VoipAppWidget разрешает ручную фильтрацию по IP-адресам звонящих."
+
+#: VoipAppWidget-help.php:166 VoipAppWidget.php:437
+msgid "Notifications"
+msgstr "Уведомления"
+
+#: VoipAppWidget-help.php:167
+msgid "Notification settings (SMS/Email)"
+msgstr "Настройки уведомлений (СМС/Email)"
+
+#: VoipAppWidget-help.php:172
+msgid "You can pay for the service in VoipAppWidget Control Panel"
+msgstr "Оплатить сервис Вы можете в Панели Управления VoipAppWidget"
+
+#: VoipAppWidget-notifications.php:9
+msgid "Mobile phone"
+msgstr "Номер мобильного телефона"
+
+#: VoipAppWidget-notifications.php:15
+msgid "Disable personal mails"
+msgstr "Отключить персональные уведомления"
+
+#: VoipAppWidget-notifications.php:21
+msgid "Disable common mails"
+msgstr "Отключить общие уведомления"
+
+#: VoipAppWidget-notifications.php:26
+msgid "Update"
+msgstr "Обновить"
+
+#: VoipAppWidget-profile.php:21 VoipAppWidget-profile.php:72
+msgid "Email"
+msgstr ""
+
+#: VoipAppWidget-profile.php:27 VoipAppWidget-profile.php:80
+msgid "Timezone"
+msgstr "Часовой пояс"
+
+#: VoipAppWidget-profile.php:37 VoipAppWidget-profile.php:95
+msgid "Company"
+msgstr "Компания"
+
+#: VoipAppWidget-profile.php:43 VoipAppWidget-profile.php:101
+msgid "Address"
+msgstr "Адрес"
+
+#: VoipAppWidget-profile.php:112
+msgid "Cancel"
+msgstr "Отмена"
+
+#: VoipAppWidget-widgetdesigner.php:102
+msgid "Widget visual settings"
+msgstr "Визуальная настройка виджета"
+
+#: VoipAppWidget-widgetdesigner.php:103
+msgid ""
+"Customize the look and feel of your widget <br /> according to the style of "
+"your website"
+msgstr ""
+"Настройте внешний вид Вашего виджета <br /> в соответствии со стилем вашего "
+"сайта"
+
+#: VoipAppWidget-widgetdesigner.php:107
+msgid "Preview background"
+msgstr "Цвет подложки"
+
+#: VoipAppWidget-widgetdesigner.php:109
+msgid "Light"
+msgstr "Светлый"
+
+#: VoipAppWidget-widgetdesigner.php:111
+msgid "Dark"
+msgstr "Темный"
+
+#: VoipAppWidget-widgetdesigner.php:114
+msgid "PREVIEW"
+msgstr "ПРЕДПРОСМОТР"
+
+#: VoipAppWidget-widgetdesigner.php:122
+msgid "Finished? Click the button to save and show your widget`s embed code."
+msgstr ""
+"Закончили? Нажмите кнопку для сохранения и получения кода вставки виджета."
+
+#: VoipAppWidget-widgetdesigner.php:125
+msgid "Finished? Click the button to Save or Save and place widget."
+msgstr ""
+"Закончили? Нажмите кнопку для сохранения и размещения виджета на сайте."
+
+#: VoipAppWidget-widgetdesigner.php:134
+msgid "Save and show embed code"
+msgstr "Сохранить и показать код вставки"
+
+#: VoipAppWidget-widgetdesigner.php:135
+msgid "Place on website"
+msgstr "Разместить на сайте"
+
+#: VoipAppWidget-widgetdesigner.php:136
+msgid "Save widget"
+msgstr "Сохранить виджет"
+
+#: VoipAppWidget-widgetdesigner.php:143 VoipAppWidget-widgetdesigner.php:347
+msgid "Choose preset"
+msgstr "Выбрать шаблон"
+
+#: VoipAppWidget-widgetdesigner.php:144
+msgid "More settings"
+msgstr "Дополнительно"
+
+#: VoipAppWidget-widgetdesigner.php:150 VoipAppWidget-widgetdesigner.php:153
+msgid "Presets"
+msgstr "Шаблоны"
+
+#: VoipAppWidget-widgetdesigner.php:174
+msgid "Type"
+msgstr "Тип"
+
+#: VoipAppWidget-widgetdesigner.php:179
+msgid "Button"
+msgstr "Кнопка"
+
+#: VoipAppWidget-widgetdesigner.php:183
+msgid "Position"
+msgstr "Позиция"
+
+#: VoipAppWidget-widgetdesigner.php:186
+msgid "Left"
+msgstr "Слева"
+
+#: VoipAppWidget-widgetdesigner.php:188
+msgid "Right"
+msgstr "Справа"
+
+#: VoipAppWidget-widgetdesigner.php:195
+msgid "Button Label"
+msgstr "Текст кнопки"
+
+#: VoipAppWidget-widgetdesigner.php:197 VoipAppWidget-widgetdesigner.php:402
+msgid "Call Us Online"
+msgstr "Позвонить онлайн"
+
+#: VoipAppWidget-widgetdesigner.php:204
+msgid "Button Preset"
+msgstr "Настройки кнопки"
+
+#: VoipAppWidget-widgetdesigner.php:210
+msgid "Icon color&shadow"
+msgstr "Цвет и тень иконки"
+
+#: VoipAppWidget-widgetdesigner.php:213
+msgid "Icon color"
+msgstr "Цвет иконки"
+
+#: VoipAppWidget-widgetdesigner.php:216
+msgid "Icon Shadow"
+msgstr "Тень иконки"
+
+#: VoipAppWidget-widgetdesigner.php:219 VoipAppWidget-widgetdesigner.php:278
+msgid "On"
+msgstr "Да"
+
+#: VoipAppWidget-widgetdesigner.php:221 VoipAppWidget-widgetdesigner.php:280
+msgid "Off"
+msgstr "Нет"
+
+#: VoipAppWidget-widgetdesigner.php:228
+msgid "Button Colors"
+msgstr "Цвета кнопки"
+
+#: VoipAppWidget-widgetdesigner.php:232
+msgid "Color 1"
+msgstr "Цвет кнопки 1"
+
+#: VoipAppWidget-widgetdesigner.php:235
+msgid "Color 2"
+msgstr "Цвет кнопки 2"
+
+#: VoipAppWidget-widgetdesigner.php:239
+msgid "Color 3"
+msgstr "Цвет кнопки 3"
+
+#: VoipAppWidget-widgetdesigner.php:242
+msgid "Color 4"
+msgstr "Цвет кнопки 4"
+
+#: VoipAppWidget-widgetdesigner.php:248
+msgid "Hover Button Colors"
+msgstr "Цвета кнопки при наведении"
+
+#: VoipAppWidget-widgetdesigner.php:252
+msgid "Hover color 1"
+msgstr "Цвет наведения 1"
+
+#: VoipAppWidget-widgetdesigner.php:255
+msgid "Hover color 2"
+msgstr "Цвет наведения 2"
+
+#: VoipAppWidget-widgetdesigner.php:259
+msgid "Hover color 3"
+msgstr "Цвет наведения 3"
+
+#: VoipAppWidget-widgetdesigner.php:262
+msgid "Hover color 4"
+msgstr "Цвет наведения 4"
+
+#: VoipAppWidget-widgetdesigner.php:268
+msgid "Label Colors"
+msgstr "Цвета надписи"
+
+#: VoipAppWidget-widgetdesigner.php:271
+msgid "Text Color"
+msgstr "Цвет текста"
+
+#: VoipAppWidget-widgetdesigner.php:274
+msgid "Label Shadow"
+msgstr "Тень от текста"
+
+#: VoipAppWidget-widgetdesigner.php:284
+msgid "Shadow Color"
+msgstr "Цвет тени"
+
+#: VoipAppWidget-widgetdesigner.php:290
+msgid "Padding"
+msgstr "Отступ"
+
+#: VoipAppWidget-widgetdesigner.php:302
+msgid "Font Size"
+msgstr "Размер шрифта"
+
+#: VoipAppWidget-widgetdesigner.php:314
+msgid "Corner Roundness"
+msgstr "Скругление углов"
+
+#: VoipAppWidget-widgetdesigner.php:348
+msgid "Hide"
+msgstr "Скрыть"
+
+#: VoipAppWidget-widgetdesigner.php:349
+msgid "Successfully copied your HTML code to clipboard"
+msgstr "HTML-код успешно скопирован"
+
+#: VoipAppWidget-widgetdesigner.php:350
+msgid ""
+"Copy the code below and paste it immediately before the closing </head> tag"
+msgstr ""
+
+#: VoipAppWidget-widgetdesigner.php:351
+msgid ""
+"Copy the code below and paste it in place where you want your button to be "
+"shown"
+msgstr ""
+
+#: VoipAppWidget-widgetdesigner.php:357
+msgid "HTML code successfully copied!"
+msgstr ""
+
+#: VoipAppWidget-widgetdesigner.php:999
+msgid "Your widget has been successfully saved <br />and placed on website"
+msgstr "Ваш виджет был успешно сохранен <br />и размещен на сайте"
+
+#: VoipAppWidget-widgetdesigner.php:1001
+msgid "Your widget has been successfully saved"
+msgstr "Виджет был успешно сохранен"
+
+#: VoipAppWidget-widgetdesigner.php:1004
+msgid "There are 3 different ways to embed widget onto your website"
+msgstr "Добавить виджет на сайт Вы можете 3 разными способами"
+
+#: VoipAppWidget-widgetdesigner.php:1005
+msgid "Enable widget on <a href='/wp-admin/widgets.php'>Widgets</a> page"
+msgstr ""
+"Подключить виджет на странице <a href='/wp-admin/widgets.php'>Виджеты</a>"
+
+#: VoipAppWidget-widgetdesigner.php:1006
+msgid "Insert widget shortcode into page content"
+msgstr "Вставить шорткод виджета в текст страницы"
+
+#: VoipAppWidget-widgetdesigner.php:1007
+msgid "Add <b>VoipAppWidget_widget_show"
+msgstr "Добавить <b>VoipAppWidget_widget_show"
+
+#: VoipAppWidget-widgetdesigner.php:1007
+msgid "function call in your website template"
+msgstr "в шаблон Вашего сайта"
+
+#: VoipAppWidget-widgets.php:51
+msgid "Create Widget"
+msgstr "Создать виджет"
+
+#: VoipAppWidget.php:27
+msgid "Russia (area code 495, 499, 812)"
+msgstr "Россия (в кодах 495, 499, 812)"
+
+#: VoipAppWidget.php:28
+msgid "Russia (other landline numbers)"
+msgstr "Россия (другие городские номера)"
+
+#: VoipAppWidget.php:29
+msgid "United States (landline & mobile numbers)"
+msgstr "США (городские и мобильные)"
+
+#: VoipAppWidget.php:30
+msgid "Australia (landline numbers)"
+msgstr "Австралия (городские номера)"
+
+#: VoipAppWidget.php:31
+msgid "Canada (landline & mobile numbers)"
+msgstr "Канада (городские и мобильные)"
+
+#: VoipAppWidget.php:32
+msgid "France (landline numbers)"
+msgstr "Франция (городские номера)"
+
+#: VoipAppWidget.php:33
+msgid "Germany (landline numbers)"
+msgstr "Германия (городские номера)"
+
+#: VoipAppWidget.php:34
+msgid "Israel (landline numbers)"
+msgstr "Израиль (городские номера)"
+
+#: VoipAppWidget.php:35
+msgid "Italy (landline numbers)"
+msgstr "Италия (городские номера)"
+
+#: VoipAppWidget.php:36
+msgid "Japan (landline numbers)"
+msgstr "Япония (городские номера)"
+
+#: VoipAppWidget.php:37
+msgid "Netherlands (landline numbers)"
+msgstr "Недерланды (городские номера)"
+
+#: VoipAppWidget.php:38
+msgid "Kazakhstan (landline numbers)"
+msgstr "Казахстан (городские номера)"
+
+#: VoipAppWidget.php:39
+msgid "Republic of Korea (landline numbers)"
+msgstr "Корея (городские номера)"
+
+#: VoipAppWidget.php:40
+msgid "Spain (landline numbers)"
+msgstr "Испания (городские номера)"
+
+#: VoipAppWidget.php:41
+msgid "Turkey (landline numbers)"
+msgstr "Турция (городские номера)"
+
+#: VoipAppWidget.php:42
+msgid "United Kingdom (landline numbers)"
+msgstr "Великобритания (городские номера)"
+
+#: VoipAppWidget.php:43
+msgid "Ukraine (landline numbers)"
+msgstr "Украина (городские номера)"
+
+#: VoipAppWidget.php:60
+msgid "(GMT-10:00) Hawaii"
+msgstr ""
+
+#: VoipAppWidget.php:61
+msgid "(GMT-09:00) Alaska"
+msgstr ""
+
+#: VoipAppWidget.php:62
+msgid "(GMT-08:00) Pacific Time (US &amp; Canada)"
+msgstr ""
+
+#: VoipAppWidget.php:63
+msgid "(GMT-07:00) Arizona"
+msgstr ""
+
+#: VoipAppWidget.php:64
+msgid "(GMT-07:00) Mountain Time (US &amp; Canada)"
+msgstr ""
+
+#: VoipAppWidget.php:65
+msgid "(GMT-06:00) Central Time (US &amp; Canada)"
+msgstr ""
+
+#: VoipAppWidget.php:66
+msgid "(GMT-05:00) Eastern Time (US &amp; Canada)"
+msgstr ""
+
+#: VoipAppWidget.php:67
+msgid "(GMT-05:00) Indiana (East)"
+msgstr ""
+
+#: VoipAppWidget.php:68
+msgid "(GMT-11:00) International Date Line West"
+msgstr ""
+
+#: VoipAppWidget.php:69
+msgid "(GMT-11:00) Midway Island"
+msgstr ""
+
+#: VoipAppWidget.php:70
+msgid "(GMT-11:00) Samoa"
+msgstr ""
+
+#: VoipAppWidget.php:71
+msgid "(GMT-08:00) Tijuana"
+msgstr ""
+
+#: VoipAppWidget.php:72
+msgid "(GMT-07:00) Chihuahua"
+msgstr ""
+
+#: VoipAppWidget.php:73
+msgid "(GMT-07:00) Mazatlan"
+msgstr ""
+
+#: VoipAppWidget.php:74
+msgid "(GMT-06:00) Central America"
+msgstr ""
+
+#: VoipAppWidget.php:75
+msgid "(GMT-06:00) Mexico City"
+msgstr ""
+
+#: VoipAppWidget.php:76
+msgid "(GMT-06:00) Monterrey"
+msgstr ""
+
+#: VoipAppWidget.php:77
+msgid "(GMT-06:00) Saskatchewan"
+msgstr ""
+
+#: VoipAppWidget.php:78
+msgid "(GMT-05:00) Bogota"
+msgstr ""
+
+#: VoipAppWidget.php:79
+msgid "(GMT-05:00) Lima"
+msgstr ""
+
+#: VoipAppWidget.php:80
+msgid "(GMT-05:00) Quito"
+msgstr ""
+
+#: VoipAppWidget.php:81
+msgid "(GMT-04:30) Caracas"
+msgstr ""
+
+#: VoipAppWidget.php:82
+msgid "(GMT-04:00) Atlantic Time (Canada)"
+msgstr ""
+
+#: VoipAppWidget.php:83
+msgid "(GMT-04:00) La Paz"
+msgstr ""
+
+#: VoipAppWidget.php:84
+msgid "(GMT-04:00) Santiago"
+msgstr ""
+
+#: VoipAppWidget.php:85
+msgid "(GMT-03:30) Newfoundland"
+msgstr ""
+
+#: VoipAppWidget.php:86
+msgid "(GMT-03:00) Brasilia"
+msgstr ""
+
+#: VoipAppWidget.php:87
+msgid "(GMT-03:00) Buenos Aires"
+msgstr ""
+
+#: VoipAppWidget.php:88
+msgid "(GMT-04:00) Georgetown"
+msgstr ""
+
+#: VoipAppWidget.php:89
+msgid "(GMT-03:00) Greenland"
+msgstr ""
+
+#: VoipAppWidget.php:90
+msgid "(GMT-02:00) Mid-Atlantic"
+msgstr ""
+
+#: VoipAppWidget.php:91
+msgid "(GMT-01:00) Azores"
+msgstr ""
+
+#: VoipAppWidget.php:92
+msgid "(GMT-01:00) Cape Verde Is."
+msgstr ""
+
+#: VoipAppWidget.php:93
+msgid "(GMT) Casablanca"
+msgstr ""
+
+#: VoipAppWidget.php:94
+msgid "(GMT) Dublin"
+msgstr ""
+
+#: VoipAppWidget.php:95
+msgid "(GMT) Lisbon"
+msgstr ""
+
+#: VoipAppWidget.php:96
+msgid "(GMT) London"
+msgstr ""
+
+#: VoipAppWidget.php:97
+msgid "(GMT) Monrovia"
+msgstr ""
+
+#: VoipAppWidget.php:98
+msgid "(GMT+01:00) Amsterdam"
+msgstr ""
+
+#: VoipAppWidget.php:99
+msgid "(GMT+01:00) Belgrade"
+msgstr ""
+
+#: VoipAppWidget.php:100
+msgid "(GMT+01:00) Berlin"
+msgstr ""
+
+#: VoipAppWidget.php:101
+msgid "(GMT+01:00) Bern"
+msgstr ""
+
+#: VoipAppWidget.php:102
+msgid "(GMT+01:00) Bratislava"
+msgstr ""
+
+#: VoipAppWidget.php:103
+msgid "(GMT+01:00) Brussels"
+msgstr ""
+
+#: VoipAppWidget.php:104
+msgid "(GMT+01:00) Budapest"
+msgstr ""
+
+#: VoipAppWidget.php:105
+msgid "(GMT+01:00) Copenhagen"
+msgstr ""
+
+#: VoipAppWidget.php:106
+msgid "(GMT+01:00) Ljubljana"
+msgstr ""
+
+#: VoipAppWidget.php:107
+msgid "(GMT+01:00) Madrid"
+msgstr ""
+
+#: VoipAppWidget.php:108
+msgid "(GMT+01:00) Paris"
+msgstr ""
+
+#: VoipAppWidget.php:109
+msgid "(GMT+01:00) Prague"
+msgstr ""
+
+#: VoipAppWidget.php:110
+msgid "(GMT+01:00) Rome"
+msgstr ""
+
+#: VoipAppWidget.php:111
+msgid "(GMT+01:00) Sarajevo"
+msgstr ""
+
+#: VoipAppWidget.php:112
+msgid "(GMT+01:00) Skopje"
+msgstr ""
+
+#: VoipAppWidget.php:113
+msgid "(GMT+01:00) Stockholm"
+msgstr ""
+
+#: VoipAppWidget.php:114
+msgid "(GMT+01:00) Vienna"
+msgstr ""
+
+#: VoipAppWidget.php:115
+msgid "(GMT+01:00) Warsaw"
+msgstr ""
+
+#: VoipAppWidget.php:116
+msgid "(GMT+01:00) West Central Africa"
+msgstr ""
+
+#: VoipAppWidget.php:117
+msgid "(GMT+01:00) Zagreb"
+msgstr ""
+
+#: VoipAppWidget.php:118
+msgid "(GMT+02:00) Athens"
+msgstr ""
+
+#: VoipAppWidget.php:119
+msgid "(GMT+02:00) Bucharest"
+msgstr ""
+
+#: VoipAppWidget.php:120
+msgid "(GMT+02:00) Cairo"
+msgstr ""
+
+#: VoipAppWidget.php:121
+msgid "(GMT+02:00) Harare"
+msgstr ""
+
+#: VoipAppWidget.php:122
+msgid "(GMT+02:00) Helsinki"
+msgstr ""
+
+#: VoipAppWidget.php:123
+msgid "(GMT+02:00) Istanbul"
+msgstr ""
+
+#: VoipAppWidget.php:124
+msgid "(GMT+02:00) Jerusalem"
+msgstr ""
+
+#: VoipAppWidget.php:125
+msgid "(GMT+02:00) Kyiv"
+msgstr ""
+
+#: VoipAppWidget.php:126
+msgid "(GMT+02:00) Minsk"
+msgstr ""
+
+#: VoipAppWidget.php:127
+msgid "(GMT+02:00) Pretoria"
+msgstr ""
+
+#: VoipAppWidget.php:128
+msgid "(GMT+02:00) Riga"
+msgstr ""
+
+#: VoipAppWidget.php:129
+msgid "(GMT+02:00) Sofia"
+msgstr ""
+
+#: VoipAppWidget.php:130
+msgid "(GMT+02:00) Tallinn"
+msgstr ""
+
+#: VoipAppWidget.php:131
+msgid "(GMT+02:00) Vilnius"
+msgstr ""
+
+#: VoipAppWidget.php:132
+msgid "(GMT+03:00) Baghdad"
+msgstr ""
+
+#: VoipAppWidget.php:133
+msgid "(GMT+03:00) Kuwait"
+msgstr ""
+
+#: VoipAppWidget.php:134
+msgid "(GMT+04:00) Moscow"
+msgstr ""
+
+#: VoipAppWidget.php:135
+msgid "(GMT+03:00) Nairobi"
+msgstr ""
+
+#: VoipAppWidget.php:136
+msgid "(GMT+03:00) Riyadh"
+msgstr ""
+
+#: VoipAppWidget.php:137
+msgid "(GMT+03:00) Volgograd"
+msgstr ""
+
+#: VoipAppWidget.php:138
+msgid "(GMT+03:30) Tehran"
+msgstr ""
+
+#: VoipAppWidget.php:139
+msgid "(GMT+04:00) Abu Dhabi"
+msgstr ""
+
+#: VoipAppWidget.php:140
+msgid "(GMT+04:00) Baku"
+msgstr ""
+
+#: VoipAppWidget.php:141
+msgid "(GMT+04:00) Muscat"
+msgstr ""
+
+#: VoipAppWidget.php:142
+msgid "(GMT+04:00) Tbilisi"
+msgstr ""
+
+#: VoipAppWidget.php:143
+msgid "(GMT+04:00) Yerevan"
+msgstr ""
+
+#: VoipAppWidget.php:144
+msgid "(GMT+04:30) Kabul"
+msgstr ""
+
+#: VoipAppWidget.php:145
+msgid "(GMT+06:00) Ekaterinburg"
+msgstr ""
+
+#: VoipAppWidget.php:146
+msgid "(GMT+05:00) Islamabad"
+msgstr ""
+
+#: VoipAppWidget.php:147
+msgid "(GMT+05:00) Karachi"
+msgstr ""
+
+#: VoipAppWidget.php:148
+msgid "(GMT+05:00) Tashkent"
+msgstr ""
+
+#: VoipAppWidget.php:149
+msgid "(GMT+05:30) Chennai"
+msgstr ""
+
+#: VoipAppWidget.php:150
+msgid "(GMT+05:30) New Delhi"
+msgstr ""
+
+#: VoipAppWidget.php:151
+msgid "(GMT+05:45) Kathmandu"
+msgstr ""
+
+#: VoipAppWidget.php:152
+msgid "(GMT+06:00) Astana"
+msgstr ""
+
+#: VoipAppWidget.php:153
+msgid "(GMT+06:00) Dhaka"
+msgstr ""
+
+#: VoipAppWidget.php:154
+msgid "(GMT+07:00) Novosibirsk"
+msgstr ""
+
+#: VoipAppWidget.php:155
+msgid "(GMT+06:30) Rangoon"
+msgstr ""
+
+#: VoipAppWidget.php:156
+msgid "(GMT+07:00) Bangkok"
+msgstr ""
+
+#: VoipAppWidget.php:157
+msgid "(GMT+07:00) Hanoi"
+msgstr ""
+
+#: VoipAppWidget.php:158
+msgid "(GMT+07:00) Jakarta"
+msgstr ""
+
+#: VoipAppWidget.php:159
+msgid "(GMT+08:00) Krasnoyarsk"
+msgstr ""
+
+#: VoipAppWidget.php:160
+msgid "(GMT+08:00) Beijing"
+msgstr ""
+
+#: VoipAppWidget.php:161
+msgid "(GMT+08:00) Hong Kong"
+msgstr ""
+
+#: VoipAppWidget.php:162
+msgid "(GMT+09:00) Irkutsk"
+msgstr ""
+
+#: VoipAppWidget.php:163
+msgid "(GMT+08:00) Kuala Lumpur"
+msgstr ""
+
+#: VoipAppWidget.php:164
+msgid "(GMT+08:00) Perth"
+msgstr ""
+
+#: VoipAppWidget.php:165
+msgid "(GMT+08:00) Singapore"
+msgstr ""
+
+#: VoipAppWidget.php:166
+msgid "(GMT+08:00) Taipei"
+msgstr ""
+
+#: VoipAppWidget.php:167
+msgid "(GMT+08:00) Ulan Bator"
+msgstr ""
+
+#: VoipAppWidget.php:168
+msgid "(GMT+08:00) Urumqi"
+msgstr ""
+
+#: VoipAppWidget.php:169
+msgid "(GMT+09:00) Seoul"
+msgstr ""
+
+#: VoipAppWidget.php:170
+msgid "(GMT+09:00) Tokyo"
+msgstr ""
+
+#: VoipAppWidget.php:171
+msgid "(GMT+10:00) Yakutsk"
+msgstr ""
+
+#: VoipAppWidget.php:172
+msgid "(GMT+09:30) Adelaide"
+msgstr ""
+
+#: VoipAppWidget.php:173
+msgid "(GMT+09:30) Darwin"
+msgstr ""
+
+#: VoipAppWidget.php:174
+msgid "(GMT+10:00) Brisbane"
+msgstr ""
+
+#: VoipAppWidget.php:175
+msgid "(GMT+10:00) Guam"
+msgstr ""
+
+#: VoipAppWidget.php:176
+msgid "(GMT+10:00) Hobart"
+msgstr ""
+
+#: VoipAppWidget.php:177
+msgid "(GMT+10:00) Melbourne"
+msgstr ""
+
+#: VoipAppWidget.php:178
+msgid "(GMT+10:00) Port Moresby"
+msgstr ""
+
+#: VoipAppWidget.php:179
+msgid "(GMT+10:00) Sydney"
+msgstr ""
+
+#: VoipAppWidget.php:180
+msgid "(GMT+11:00) Vladivostok"
+msgstr ""
+
+#: VoipAppWidget.php:181
+msgid "(GMT+11:00) Magadan"
+msgstr ""
+
+#: VoipAppWidget.php:182
+msgid "(GMT+11:00) New Caledonia"
+msgstr ""
+
+#: VoipAppWidget.php:183
+msgid "(GMT+11:00) Solomon Is."
+msgstr ""
+
+#: VoipAppWidget.php:184
+msgid "(GMT+12:00) Fiji"
+msgstr ""
+
+#: VoipAppWidget.php:185
+msgid "(GMT+12:00) Kamchatka"
+msgstr ""
+
+#: VoipAppWidget.php:186
+msgid "(GMT+12:00) Marshall Is."
+msgstr ""
+
+#: VoipAppWidget.php:187
+msgid "(GMT+12:00) Wellington"
+msgstr ""
+
+#: VoipAppWidget.php:188
+msgid "(GMT+13:00) Nuku'alofa"
+msgstr ""
+
+#: VoipAppWidget.php:231
+msgid ""
+"APIKEY doesn't exist for specified account. Contact VoipAppWidget admin to "
+"resolve the issue"
+msgstr ""
+
+#: VoipAppWidget.php:260 VoipAppWidget.php:639
+msgid "Phone number is required"
+msgstr "Номер телефона обязателен для заполнения"
+
+#: VoipAppWidget.php:276
+msgid "Not find tariff for selected country"
+msgstr ""
+
+#: VoipAppWidget.php:381
+msgid "Profile"
+msgstr "Профиль"
+
+#: VoipAppWidget.php:382
+msgid "Widgets"
+msgstr "Виджеты"
+
+#: VoipAppWidget.php:386
+msgid "Help"
+msgstr "Помощь"
+
+#: VoipAppWidget.php:401
+msgid "authorized as"
+msgstr "Вы вошли как"
+
+#: VoipAppWidget.php:401
+msgid "Logout"
+msgstr "Выход"
+
+#: VoipAppWidget.php:421
+msgid "SIP Settings"
+msgstr ""
+
+#: VoipAppWidget.php:473
+msgid "Your account is frozen"
+msgstr "Ваш аккаунт заморожен"
+
+#: VoipAppWidget.php:473
+msgid "please visit"
+msgstr "пожалуйста перейдите в раздел"
+
+#: VoipAppWidget.php:473
+msgid "to resolve the problem"
+msgstr "для решения проблемы"
+
+#: VoipAppWidget.php:524
+msgid "VoipAppWidget Settings"
+msgstr "Настройки VoipAppWidget"
+
+#: VoipAppWidget.php:524
+msgid "VoipAppWidget"
+msgstr ""
+
+#: VoipAppWidget.php:592
+msgid "Profile was updated successfully"
+msgstr "Профиль был успешно обновлен"
+
+#: VoipAppWidget.php:680
+msgid "Widget has been successfully added"
+msgstr "Виджет был успешно создан"
+
+#: VoipAppWidget.php:681 VoipAppWidget.php:750
+msgid "You can customize look&feel of your widget in "
+msgstr "Вы можете настроить внешний код виджета в "
+
+#: VoipAppWidget.php:681 VoipAppWidget.php:750
+msgid "Widget designer"
+msgstr "Редактор виджета"
+
+#: VoipAppWidget.php:749
+msgid "Widget has been successfully updated"
+msgstr "Виджет был успешно обновлен"
+
+#: VoipAppWidget.php:831
+msgid "Widget has been successfully deleted"
+msgstr "Виджет был успешно удален"
+
+#: VoipAppWidget.php:902
+msgid "Excitel click-to-call"
+msgstr "Excitel звонок с сайта"
+
+#: VoipAppWidget.php:902 VoipAppWidget.php:1027
+msgid "Excitel Click-to-Call widget"
+msgstr "Excitel Click-to-call виджет"
+
+#: VoipAppWidget.php:1005
+msgid "Show block title"
+msgstr "Показать заголовок блока"
+
+#: VoipAppWidget.php:1008
+msgid "Widget block title"
+msgstr "Заголовок блока виджета"
+
+#: VoipAppWidget.php:1012
+msgid "Select widget"
+msgstr "Выберите виджет"
+
+#: VoipAppWidget.php:1022
+msgid "You don`t have any Excitel buttons"
+msgstr "У Вас пока нет доступных кнопок Excitel"
+
+#: VoipAppWidget.php:1138
+msgid "Voicemail has been deleted successfully"
+msgstr "Голосовая почта была успешно удалена"
+
+#: VoipAppWidget.php:1169
+msgid "has been successfully deleted from the blacklist"
+msgstr "был успешно удален из черного списка"
+
+#: VoipAppWidget.php:1190
+msgid "has been successfully added to the blacklist"
+msgstr "был успешно добавлен в черный список"
+
+#: VoipAppWidget.php:1216
+msgid "Notifications settings has been updated successfully"
+msgstr "Настройки уведомлений были успешно обновлены"
+
+msgid "This widget is active"
+msgstr "Активный"
+
+msgid "Action"
+msgstr "Действие"
+
+msgid "Status"
+msgstr "Статус"
+
+msgid "Login"
+msgstr "Вход"
+
+msgid "Please login below so that we can retrieve your widgets."
+msgstr ""
+"Пожалуйста, выполните вход в систему, что бы мы могли предоставить Вам "
+"виджеты"
+
+msgid "Excitel - Click to call Tools"
+msgstr "Excitel - Click to call Настройки"
+
+msgid "Retrieve Your voipApp Widgets"
+msgstr "Получить Ваши виджеты"
+
+msgid "If you need assistance, please use this page"
+msgstr "Если Вам нужна помощь, пожалуйста, используйте эту страницу"
+
+msgid "No widgets"
+msgstr "Виджеты отсутствуют"
+
+msgid "Delete button"
+msgstr "Удалить кнопку с сайта"
+
+msgid "Add button"
+msgstr "Добавить кнопку на сайт"
+
+msgid "Check Widgets"
+msgstr "Проверить наличие виджетов"
+
+msgid "Button added to the website"
+msgstr "Кнопка добавлена на сайт"
+
+msgid ""
+"We could not find an account that matches that email and password "
+"combination."
+msgstr ""
+"Мы не смогли найти учетную запись, которая соответствует этим Email и пароль."
