@@ -86,7 +86,7 @@ class VoipApp_Admin extends VoipApp_Abstract{
     public function add_plugin_admin_menu() {
         $icon =  plugins_url( 'images/logot3.svg', __FILE__ );
         $this->plugin_screen_hook_suffix = add_menu_page(
-            __( 'Excitel - Click to call Tools', $this->plugin_slug ),
+            __( 'Excitel - Click to call', $this->plugin_slug ),
             __( 'Excitel', $this->plugin_slug ),
             'manage_options',
             $this->plugin_slug,
@@ -188,7 +188,7 @@ class VoipApp_Admin extends VoipApp_Abstract{
         if(!$hash){
             return false;
         }
-        print "<script type="."text/javascript"."> (function() { var widget = document.createElement('script'); widget.type = 'text/javascript'; widget.async = true; widget.src = document.location.protocol + '//stage.excitel.ru/widget.js?id=$hash'; var script = document.getElementsByTagName('script')[0]; script.parentNode.insertBefore(widget, script); })(); </script>";
+        print "<script type="."text/javascript"."> (function() { var widget = document.createElement('script'); widget.type = 'text/javascript'; widget.async = true; widget.src = document.location.protocol + '//excitel.ru/widget.js?id=$hash'; var script = document.getElementsByTagName('script')[0]; script.parentNode.insertBefore(widget, script); })(); </script>";
     }
 
     function get_widgets(){

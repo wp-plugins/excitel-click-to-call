@@ -1,11 +1,11 @@
 <?php
 class VoipApp_Abstract{
 
-    const VOIP_IP = 'http://stage.excitel.ru';
+    const VOIP_IP = 'http://excitel.ru';
     const API_VERSION = '1';
 
     public function voipApp_curl_init($url,$params,$method = 'POST'){
-        $request_host   = 'stage.excitel.ru';
+        $request_host   = 'excitel.ru';
         $request_url    = self::VOIP_IP;
         $headers = array("Host: ".$request_host,"Accept: application/vnd.example.api+json;version=".self::API_VERSION);
         $curl=curl_init();
@@ -18,8 +18,6 @@ class VoipApp_Abstract{
         curl_setopt($curl,CURLOPT_HEADER,false);
         curl_setopt($curl,CURLOPT_SSL_VERIFYPEER,0);
         curl_setopt($curl,CURLOPT_SSL_VERIFYHOST,0);
-        //TODO: delete stage auth
-        curl_setopt($curl, CURLOPT_USERPWD, "stage:zxc123");
 
         $out = curl_exec($curl);
         $code = curl_getinfo($curl,CURLINFO_HTTP_CODE); #Получим HTTP-код ответа сервера

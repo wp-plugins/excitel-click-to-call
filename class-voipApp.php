@@ -3,7 +3,7 @@ class VoipApp {
 
     const VERSION = '1.0.0';
 
-    protected $plugin_slug = 'VoipAppWidget';
+    protected $plugin_slug = 'excitel-click-to-call';
 
     protected static $instance = null;
 
@@ -14,7 +14,7 @@ class VoipApp {
     public function get_table_handle()
 {
     global $wpdb;
-    return $wpdb->prefix . "voipAppWidget";
+    return $wpdb->prefix . "excitel_";
 }
 
     public function get_plugin_slug() {
