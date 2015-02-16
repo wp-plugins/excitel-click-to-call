@@ -6,10 +6,10 @@
  * The User Interface to the end user.
  *
  * @package		voipApp_Admin
- * @author		voipApp Support <support@voipApp.com>
+ * @author		Excitel Support <support@excitel.ru>
  * @license		GPL-2.0+
- * @link		http://voipApp.com
- * @copyright	2013 voipApp
+ * @link		http://excitel.ru
+ * @copyright	2013 excitel
  */
 
 ?>
@@ -24,7 +24,7 @@
     $this->config_page();
 
 	if( !$this->voipApp_auth AND isset( $this->message ) ){?>
-			<h3><?= __( 'To add a plugin for online calls to your site create and configure the widget at ', $this->plugin_slug ); ?><a href="http://excitel.ru/">excitel.ru</a>.</h3>
+			<h3><?= __( 'To add a plugin for online calls to your site create and configure the widget at ', $this->plugin_slug ); ?><a href="http://excitel.ru/" target="_blank" >excitel.ru</a>.</h3>
 			<div class="error">
                 <p><strong><?php echo $this->message ?></strong></p>
                 <p><?= __( 'If you need assistance, please use this page', $this->plugin_slug ); ?>: <a href="<?=VoipApp_Admin::MAIN_URL;?>" target="_blank" ><?=VoipApp_Admin::MAIN_URL;?></a>.</p>
@@ -53,8 +53,8 @@
 		add_settings_section( 'section-one', 'Button Configuration','', 'voipApp' );
 
                 if(!empty($_SESSION['widgets'])){?>
-                    <p class="top_middle"><?= __( 'Select the widget to be added to the site', $this->plugin_slug ); ?></p>
-                    <p class="top_middle"><?= __( 'You can change the settings of your working hours, time zone, autoresponder and modify the appearance of the online call button from your account page at ', $this->plugin_slug ); ?><a href="http://excitel.ru/">excitel.ru</a>.</p>
+                    <p class="top_middle"><?= __( 'Select the widget to be added to the site.', $this->plugin_slug ); ?></p>
+                    <p class="top_middle"><?= __( 'You can change the settings of your working hours, time zone, autoresponder and modify the appearance of the online call button from your account page at ', $this->plugin_slug ); ?><a href="http://excitel.ru/" target="_blank" >excitel.ru</a>.</p>
                     <h1 class="nav-tab nav-tab-active"><?= __( 'Widgets', $this->plugin_slug ); ?></h1>
                     <form name="voipApp_get_widgets_form" class="get_widgets_form" method="POST" action="<?php echo $_SERVER['REQUEST_URI']; ?>">
                         <input type="hidden" name="get_widgets" value="true" />
@@ -108,7 +108,7 @@
 
 	}else{
 	?>
-			<h3><?= __( 'To add a plugin for online calls to your site create and configure the widget at ', $this->plugin_slug ); ?><a href="http://excitel.ru/">excitel.ru</a>.</h3>
+			<h3><?= __( 'To add a plugin for online calls to your site create and configure the widget at ', $this->plugin_slug ); ?><a href="http://excitel.ru/" target="_blank" >excitel.ru</a>.</h3>
 			<?php print $this->buttons_empty ?
 				 '<div class="error"><p><strong>No Button Configurations Found.</strong></p><p> Please ensure you have buttons configured at <a href="http://excitel.ru/" target="_blank">excitel.ru</a> before proceeding.</p></div>' : null; ?>
 			<div><?= __( 'Please log in to select appropriate widgets.', $this->plugin_slug ); ?></div>

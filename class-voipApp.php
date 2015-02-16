@@ -73,7 +73,7 @@ class VoipApp {
     }
 
     public function load_plugin_textdomain() {
-        load_plugin_textdomain( 'VoipAppWidget', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
+        load_plugin_textdomain( $this->plugin_slug , false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
     }
 }
 

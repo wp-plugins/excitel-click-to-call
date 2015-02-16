@@ -6,7 +6,7 @@ Version: 1.0
 Author: Excitel
 Author URI: http://excitel.ru/
 */
-/*  Copyright 2014  Solvegen  (email : jeremybatkers {at} gmail.com)
+/*  Copyright 2014  Excitel  (email : support {at} excitel.ru)
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
