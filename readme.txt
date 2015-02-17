@@ -9,7 +9,7 @@ License: GPLv2 or later
 Excitel service helps your customers make calls from the site over the Internet for free
 
 == Description ==
-[Excitel](http://excitel.ru/ “excitel.ru”) offers voice communication, which will help you to answer user’s questions in time. As a result, this will increase sales and customer loyalty.
+[Excitel](http://excitel.ru/ "excitel.ru") offers voice communication, which will help you to answer user’s questions in time. As a result, this will increase sales and customer loyalty.
 The user does not need installation of additional applications every time, adding contacts, going for the phone and dialing long numbers. The user may just click "Call" button and find out all the necessary information.
 
 **Features**:
@@ -34,7 +34,7 @@ This module is designed to simplify the process of adding online call buttons to
 5. Open Widgets section and click Widget is active checkbox and press Save button to enable widget on your website.
 
 == Screenshots ==
-1. Please enter your email and password from [excitel.ru](http://excitel.ru/ “excitel.ru”) to select the appropriate widgets
+1. Please enter your email and password from [excitel.ru](http://excitel.ru/ "excitel.ru") to select the appropriate widgets
 2. Select the widget that you want to add to the site
 3. You can delete widget from the site.
 4. Enjoy. You can see widget's button on you site.
