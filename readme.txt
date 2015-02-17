@@ -34,11 +34,11 @@ This module is designed to simplify the process of adding online call buttons to
 5. Open Widgets section and click Widget is active checkbox and press Save button to enable widget on your website.
 
 == Screenshots ==
-1. Log in to select appropriate widgets Excitel
+1. Please enter your email and password from [excitel.ru](http://excitel.ru/ “excitel.ru”) to select the appropriate widgets
 2. Select the widget that you want to add to the site
-3. Select the widget that you want to delete from the site
-4. Example placed Excitel widget
-5. Example placed Excitel widget
+3. You can delete widget from the site.
+4. Enjoy. You can see widget's button on you site.
+5. User can hover over the button and press Call button.
 
 == Changelog ==
 = 1.0 =
