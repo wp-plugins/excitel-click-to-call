@@ -2,7 +2,7 @@
 /*
 Plugin Name: Excitel - Click to call
 Description: Let your website visitors call you. Without a phone. Excitel enables voice calls through any computer, right from a webpage.
-Version: 1.0
+Version: 1.1
 Author: Excitel
 Author URI: http://excitel.ru/
 */
