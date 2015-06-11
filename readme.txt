@@ -2,7 +2,7 @@
 Contributors: excitel
 Tags: click to call, webrtc, call from website, click2call, call, leads
 Requires at least: 3.8
-Tested up to: 4.1
+Tested up to: 4.2.2
 Stable tag: trunk
 License: GPLv2 or later
 
